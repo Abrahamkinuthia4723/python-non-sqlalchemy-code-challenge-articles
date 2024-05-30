@@ -59,16 +59,16 @@ class Author:
 
     @name.setter
     def name(self, new_name):
-        if hasattr(self, "name"):
-            AttributeError("Name cannot be changed")
+        if hasattr(self, "_name"):
+            raise AttributeError("Name cannot be changed")
         else:
             if isinstance(new_name, str):
-                if len(new_name):
+                if len(new_name) > 0:
                     self._name = new_name
                 else:
-                    ValueError("Name must be longer than 0 characters")
+                    raise ValueError("Name must be longer than 0 characters")
             else:
-                TypeError("Name must be a string")
+                raise TypeError("Name must be a string")
 
     def articles(self):
         return [article for article in Article.all if self == article.author]
@@ -84,3 +84,4 @@ class Author:
         if topic_areas:
             return topic_areas
         else:
+            return []

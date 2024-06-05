@@ -1,6 +1,6 @@
 # Phase 3 Code Challenge: Articles - without SQLAlchemy (Updated)
 
-https://github.com/Abrahamkinuthia4723/Phase-3-Code-Challenge-Articles---without-SQLAlchemy-Updated-/assets/162336259/14902163-d30f-44f1-a960-2b13d13a2d26
+https://github.com/Abrahamkinuthia4723/Phase-3-Code-Challenge-Articles---without-SQLAlchemy-Updated-/assets/162336259/c624d7b9-2b1c-4dba-aae8-70f2590fef1b
 
 In this code challenge, you will be working with a Magazine domain.
 
